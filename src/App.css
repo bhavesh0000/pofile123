@@ -7,15 +7,19 @@
   padding: 0px;
 }
 .navbar-box {
-  background-color: #69b1cbd4;
-  border: 1.5px solid rgba(240, 248, 248, 0.899);
+  background-color: hsl(159, 53%, 74%);
+  border: 1px solid rgba(4, 5, 5, 0.899);
   padding: 0px;
 
 }
+.header{
+  background-color: #dd214c;
+}
 body {
-  background: #201b1a;
+  background-color: #040404cd;
   color: palevioletred;
   font-size: 2.0rem;
+  
 }
 .home{
   display: flex;
@@ -58,7 +62,7 @@ align-items: center;
 .skills{
   margin-top: 100px;
   text-align: center;
-  color: #e8eaff;
+  color: #dadcf2;
 }
 .projects .wrapper{
   max-width: 800px;
@@ -133,6 +137,77 @@ align-items: center;
   margin-top: 10px;
   align-items: center;
   color: whitesmoke;
+}
+.contact-data {
+  border-left: 1px solid #dfdfdf;
+  padding-left: 40px;
+  display: block;
+  margin-top: 100px;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* por page  */
+.positions-container {
+  margin: 30px;
+  background-color: #e7c9c9;
+  
+  
+}
+
+.positions-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 30px 400px;
+  text-align: center;
+  align-content: center;
+  color: hsla(0, 60%, 2%, 0.749);
+
+}
+
+
+.position-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.position-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.position-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.position-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.position-card a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #70b2d6;
+}
+
+@media only screen and (min-width: 768px) {
+  .positions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .position-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+  }
 }
 
 

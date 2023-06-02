@@ -82,6 +82,20 @@ const handleSubmit = (event) => {
           </button>
         </form>
       </Col>
+      <Col>
+      <div className='contact-data'>
+        <p>If you want to chat about a web development project, email me
+          on bhavesh.chemicool@gmail.com.
+        </p>
+        <p>
+          I can help designing a website, designing a new product, improving existing part of your product, building a strong
+          design system, building websites in webflow, or designing a custom icon for your business.(" ")
+        </p>
+        <p>
+          Currently based in Jaipur, India. Available for remote-friendly work.
+        </p>
+      </div>
+      </Col>
     </Row>
   );
 };
